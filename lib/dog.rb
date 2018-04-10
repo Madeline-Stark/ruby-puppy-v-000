@@ -8,14 +8,14 @@ def initialize(name)
   @@all << self
 end
 
-def self.all?
+def self.all
   @@all.each do |puppy|
       puts puppy.name
     end
 end
 
 def self.clear_all
-  @@all.clear 
+  @@all.clear
 end
 
 
